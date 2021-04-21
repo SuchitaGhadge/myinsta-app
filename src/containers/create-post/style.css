@@ -16,6 +16,7 @@
 .createPost__textarea {
     width: 100%;
     border: none;
+    resize: none;
     outline: none;
     margin-top: 6px;
     font-size: 14px;
