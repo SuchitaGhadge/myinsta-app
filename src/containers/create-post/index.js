@@ -61,9 +61,14 @@ export default function CreatePost() {
                         photourl:imageUrl,
                         username:user.email.replace("@gmail.com",""),
                         profileUrl:user.photoURL,
-                    })
-                })
-            })
+                    });
+                });
+                
+                setCaption("");
+                setProgress(0);
+                setImage(null);
+                document.getElementById("image-preview").style.display = "none";
+            });
         }
     };
 
