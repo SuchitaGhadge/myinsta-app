@@ -3,6 +3,7 @@ import "./style.css"
 // import { SignInBtn } from '../../components'
 import { CreatePost, Navbar } from '../../containers'
 import Feed from '../../containers/feed'
+import { Footer } from "../../containers"
 
 export default function Home() {
     return (
@@ -12,6 +13,8 @@ export default function Home() {
             <CreatePost />
 
             <Feed />
+
+            <Footer />
             
         </div>
     )
